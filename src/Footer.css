@@ -1,0 +1,70 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255);
+    border-top: 1px solid rgb(204, 203, 203);
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+.cartcount{
+    background-color: red;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+.evaly-logo{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+}
+.evaly-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.footer-logos{
+    position: relative;
+    top: 19px;
+    left: -10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer-logos1{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.footer-logos2{
+    position: relative;
+    top: 20px;
+    left: 27px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.footer-logos3{
+    position: relative;
+    top: 22px;
+    left: 14px;
+    font-size: 22px;
+    cursor: pointer;
+}

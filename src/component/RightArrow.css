@@ -1,0 +1,13 @@
+
+    .RightArrow{
+        position: relative;
+    }
+    .RightArrow span{
+        position: absolute;
+        top: -50px;
+    
+    }
+    .rightarrow{
+        color: rgba(0,0,0,0.7);
+        font-size: 20px;
+    }

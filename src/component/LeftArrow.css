@@ -1,0 +1,41 @@
+.LeftArrow{
+    position: relative;
+}
+.LeftArrow span{
+    position: absolute;
+    /* left: 1120px; */
+    top: -50px;
+}
+.leftarrow{
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
+}
+
+/* ipad */
+@media only screen and (min-width:768px ) and (max-width:1024px)
+{
+    .LeftArrow span{
+        position: absolute;
+        left: 620px;
+        top: -50px;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1366px)
+{
+    .LeftArrow span{
+        position: absolute;
+        left: 830px;
+        top: -50px;
+    }
+}
+/* desktop */
+@media only screen and (min-width:1281px)
+{
+    .LeftArrow span{
+        position: absolute;
+        left: 1110px;
+        top: -50px;
+    }
+}
+

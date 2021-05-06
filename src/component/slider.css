@@ -1,0 +1,122 @@
+.silde-wrapper{
+    margin-left: 10px;
+}
+.sliders{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    width:95%;
+    height: 120px;
+    position: relative;
+}
+.campaign-text{
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+}
+.main-text-field{
+    width: 100%;
+    height: 100%;
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main-text-field1{
+    width: 100%;
+    height: 100%;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main-text-field2{
+    width: 100%;
+    height: 100%;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.top-text{
+    font-size: 20px;
+    padding-left: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 7px 5px 10px #310707;
+    position: relative;
+    left: -3px;
+    animation: jump 0.7s linear infinite;
+}
+.bottom-text{
+    font-size: 13px;
+    padding-left: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 7px 5px 10px #2b2a2a;
+}
+@keyframes jump{
+    0%{
+       left: 0
+    }
+    30%{
+       left: 10px
+    }
+    50%{
+       left: 15px
+    }
+    70%{
+       left: 10px
+    }
+    80%{
+       left:5px
+    }
+    100%{
+       left:0
+    }
+}
+
+/* mobile */
+@media only screen  and (min-width:320px) and (max-width:480px){
+    .campaign-text{
+        position: relative;
+        left: 10px;
+    }
+    .silde-wrapper{
+        margin-left: 0;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1366px)
+{
+    .silde-wrapper{
+        margin-left: 0;
+    } 
+}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1366px)
+{
+    .campaign-text{
+        position: relative;
+        left: 27px;
+    }
+}
+/* desktop */
+@media only screen and (min-width:1281px)
+{
+    .campaign-text{
+        position: relative;
+        left: 35px;
+    }
+}
